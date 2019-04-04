@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/oopmap-webflux.iml" filepath="$PROJECT_DIR$/oopmap-webflux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webflux-base/webflux-base.iml" filepath="$PROJECT_DIR$/webflux-base/webflux-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webflux-mongo/webflux-mongo.iml" filepath="$PROJECT_DIR$/webflux-mongo/webflux-mongo.iml" />
+    </modules>
+  </component>
+</project>

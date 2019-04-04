@@ -20,6 +20,7 @@
     </properties>
     <modules>
         <module>webflux-base</module>
+        <module>webflux-mongo</module>
     </modules>
 
 </project>
