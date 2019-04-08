@@ -25,10 +25,13 @@ import static org.springframework.web.reactive.function.server.RequestPredicates
 @Configuration
 public class PersonRouter {
 
-    @Autowired
-    private PersonRespository personRespository;
-    @Autowired
-    private PersonService personService;
+    private final PersonRespository personRespository;
+    private final PersonService personService;
+
+    PersonRouter(PersonRespository personRespository, PersonService personService) {
+        this.personRespository = personRespository;
+        this.personService = personService;
+    }
 
     @Bean
     public RouterFunction personRoutes() {
